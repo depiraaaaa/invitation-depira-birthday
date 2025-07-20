@@ -319,7 +319,19 @@ nav {
 
 /* mobile phone */
 @media (max-width: 576px) {
-  html {
-    font-size: 60%;
+  .hero::before,
+  .home,
+  .location,
+  .rsvp,
+  .gift,
+  .menu-section {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+
+  .menu-image {
+    max-height: 45vh;
   }
 }
